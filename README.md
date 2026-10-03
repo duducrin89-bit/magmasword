@@ -72,6 +72,9 @@ The mod jar is written to `build/libs/`. To start a development client, run `./g
 
 For IDE setup, see the [Fabric Documentation](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up).
 
+## Version
+This is V1 and it is being developed right now
+
 ## License
 
 Available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.

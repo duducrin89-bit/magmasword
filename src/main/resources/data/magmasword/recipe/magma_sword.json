@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    "minecraft:netherite_ingot",
+    "minecraft:magma_block",
+    "minecraft:lava_bucket",
+    {
+      "fabric:type": "fabric:any",
+      "ingredients": [
+        {
+          "fabric:type": "fabric:components",
+          "base": "minecraft:splash_potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:fire_resistance"
+            }
+          }
+        },
+        {
+          "fabric:type": "fabric:components",
+          "base": "minecraft:splash_potion",
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:long_fire_resistance"
+            }
+          }
+        }
+      ]
+    },
+    "minecraft:stick",
+    "minecraft:stick"
+  ],
+  "result": {
+    "id": "magmasword:magma_sword"
+  }
+}

@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "magmasword",
+	"version": "${version}",
+	"name": "Magma Sword",
+	"description": "Adds the Magma Sword: an unbreakable blade with a launch-and-smash dash, a mega fireball, fire resistance and fast lava swimming.",
+	"authors": [
+		"Me!"
+	],
+	"license": "CC0-1.0",
+	"icon": "assets/magmasword/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.darus.magmasword.MagmaSword"
+		],
+		"client": [
+			"com.darus.magmasword.client.MagmaSwordClient"
+		]
+	},
+	"mixins": [
+		"magmasword.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
